@@ -1,6 +1,6 @@
 module Scenic
   module Adapters
-    module Mysql
+    class Mysql
       VERSION = "0.1.0"
     end
   end
