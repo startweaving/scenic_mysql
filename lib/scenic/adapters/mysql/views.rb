@@ -40,7 +40,8 @@ module Scenic
 
           Scenic::View.new(
             name: table_name,
-            definition: scrub_view_def(view_def)
+            definition: scrub_view_def(view_def),
+            materialized: false
           )
         end
 
